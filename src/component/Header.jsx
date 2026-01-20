@@ -1,5 +1,5 @@
 
-import logo from "../assets/image/jp_logo.jpg";
+import logo from "../../public/image/jp_logo.jpg";
 
 function Header() {
   return (

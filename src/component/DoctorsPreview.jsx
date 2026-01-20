@@ -1,5 +1,5 @@
 
-import Doctorsdata from "./Doctorsdata";
+import doctorsData from "./Doctorsdata";
 
 function DoctorsPreview() {
   return (
@@ -8,7 +8,7 @@ function DoctorsPreview() {
         <h2 className="text-center fw-bold mb-4 text-primary">Our Doctors</h2>
 
         <div className="row justify-content-center g-4">
-          {Doctorsdata.slice(0, 4).map((doc) => (
+          {doctorsData.slice(0, 4).map((doc) => (
             <div className="col-lg-3 col-md-4 col-sm-6" key={doc.id}>
               <div className="card text-center shadow-sm h-100">
                 <img
@@ -16,7 +16,7 @@ function DoctorsPreview() {
                   alt="doctor"
                   className="card-img-top"
                   style={{
-                    height: "200px",
+                    // height: "200px",
                     objectFit: "cover",
                   }}
                 />
