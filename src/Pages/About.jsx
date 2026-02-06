@@ -1,6 +1,9 @@
+import Header from "../component/Header";
 
 function About() {
   return (
+    <>
+    <Header/>
     <section className="py-5">
       <div className="container">
         <h3 className="text-center fw-bold mb-4 text-primary">
@@ -30,6 +33,7 @@ function About() {
 
       </div>
     </section>
+    </>
   );
 }
 
